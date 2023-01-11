@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import {HashRouter, Route, Routes} from "react-router-dom";
+import Layout from "./components/Layout/layout";
+import Hero from "./Hero";
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyC1p2H3GTV3wA1zDulPr8Lihh2ZCp-VPS8",
+    authDomain: "park-2aa5d.firebaseapp.com",
+    projectId: "park-2aa5d",
+    storageBucket: "park-2aa5d.appspot.com",
+    messagingSenderId: "778275021799",
+    appId: "1:778275021799:web:ac44aa7d9a95ee4a179342",
+    measurementId: "G-9L32LZ4YB3"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+
+            <HashRouter>
+                <Routes>
+                    <Route path="/" element={<Layout/>}>
+                        <Route path="/" element={<Hero/>}>
+                        </Route>
+                    </Route>
+                </Routes>
+            </HashRouter>
+        </div>
+    );
 }
 
 export default App;
