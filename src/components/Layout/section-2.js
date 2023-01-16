@@ -1,27 +1,25 @@
 import React from "react";
-import Icon1 from "../../assets/Icon-1.svg";
+
 
 const Section2 = () => {
     return (
         <>
-            <div className="bg-warning d-flex justify-content-center">
-                <div className="container row">
-                    <div className="col-12 col-sm-4 my-4">
-                        <img src={Icon1} /><br/>
-                        aaaaaaaaaaa
+
+            <div className="mt-4 bg-warning px-4 text-center w-100">
+                <div className="row gx-5">
+                    <div className="col">
+                        <div className="p-3"><h1>10</h1><br/>ODDANYCH WORKÓW</div>
                     </div>
-                    <div className="col-12 col-sm-4 my-4">
-                        asasasasas<br/>
-                        aaaaaaaaaaa
+                    <div className="col">
+                        <div className="p-3"><h1>5</h1><br/>WSPARTYCH ORGANIZACJI</div>
                     </div>
-                    <div className="col-12 col-sm-4 my-4">
-                        asasasasas<br/>
-                        aaaaaaaaaaa
+                    <div className="col">
+                        <div className="p-3"><h1>7</h1><br/>ZORGANIZOWANYCH ZBIÓREK</div>
                     </div>
                 </div>
             </div>
-        </>
-    );
-};
+            </>
+            );
+            };
 
-export default Section2;
+            export default Section2;
