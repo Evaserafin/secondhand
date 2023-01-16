@@ -15,11 +15,11 @@ const Hero = () => {
                 <div className="row">
                 <img className="col-12 col-sm-6" src={hero} alt="Zdjęcie ubrań"/>
                 <div className="col-12 col-sm-6 mt-md-5">
-                    <h1 className="text-items d-flex text-center">
+                    <h1 className="text-items d-flex justify-content-center">
                         Zacznij pomagać!<br/></h1>
-                    <p className="text-line" style={{textAlign: "center"}}>Oddaj niechciane rzeczy w zaufane ręce</p>
+                    <p className="text-line" style={{textAlign: "center", fontSize: 30}}>Oddaj niechciane rzeczy w zaufane ręce</p>
 
-                    <img src={Decoration} alt="wzorek dekoracyjny mały" />
+                    <img className="img-fluid d-flex justify-content-center m-auto" src={Decoration} alt="wzorek dekoracyjny mały" />
                 </div>
                 </div>
             </div>
