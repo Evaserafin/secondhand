@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Layout from "./components/Layout/layout";
 import Hero from "./Hero";
-
+import {SocialIcon} from "react-social-icons";
 
 // Import the functions you need from the SDKs you need
 import {initializeApp} from "firebase/app";

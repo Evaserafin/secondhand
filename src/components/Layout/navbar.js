@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-scroll';
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = () => {
     return (
         <>
@@ -31,10 +32,10 @@ const Navbar = () => {
                             <a className="nav-link" href="#">O nas</a>
                         </li>
                         <li className="nav-item">
-                            <Link to={"o-nas"} smooth duration={500} className="nav-link" >Fundacje i organizacje</Link>
+                            <Link to={"o-nas"} smooth duration={500} className="nav-link">Fundacje i organizacje</Link>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link" href="#">Kontakt</a>
+                        <li className="nav-item">
+                            <Link to={"oddaj-rzeczy"} smooth duration={500} className="nav-link">Kontakt</Link>
                         </li>
                     </ul>
                 </div>

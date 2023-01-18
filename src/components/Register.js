@@ -22,6 +22,8 @@ const Register = () => {
                                                     <input type="text" id="form3Example1m"
                                                            className="form-control form-control-lg"/>
                                                     <label className="form-label" htmlFor="form3Example1m">Imię</label>
+                                                    <label htmlFor="validationServer01" className="form-label">First
+                                                        name</label>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 mb-4">
