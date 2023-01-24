@@ -37,7 +37,7 @@ const Section6 = () => {
                         </form>
 
                         <div className="pt-4 text-center">
-                            <a href="/" style={{color: "black"}}>Zaloguj się</a>
+                            <a href="Login" style={{color: "black", textDecoration: "none", border: "1px solid black", padding: 10}}>Zaloguj się</a>
                         </div>
                     </div>
 

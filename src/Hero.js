@@ -8,6 +8,7 @@ import Section4 from "./components/Layout/section-4";
 import Section5 from "./components/Layout/section-5";
 import Section6 from "./components/Layout/section-6";
 import Section7 from "./components/Layout/section-7";
+import Section8 from "./components/Layout/section-8";
 import Footer from "./components/Layout/Footer";
 
 const Hero = () => {

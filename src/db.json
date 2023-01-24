@@ -1,43 +1,43 @@
 {
-  "fundations": {
+  "foundations": {
     "desc": "jakis desc",
     "items": [
       {
-        "title": "title1",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Dbam o Zdrowie'",
+        "subtitle": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
         "items": "items"
       },
       {
-        "title": "title2",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Dla Dzieci'",
+        "subtitle": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
         "items": "items"
       },
       {
-        "title": "title3",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Bez domu'",
+        "subtitle": "Cel i misja: Pomoc dla osób nie posiadających mieksca zamieszkania.",
         "items": "items"
       }, {
-        "title": "title4",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Pomagam z sercem'",
+        "subtitle": "Cel i mija: Pomagamy osobom starszym i samotnym",
         "items": "items"
       },
       {
-        "title": "title5",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Ocalenie'",
+        "subtitle": "Cel i misja: Pomagamy imigrantom i uchodźcom",
         "items": "items"
       },
       {
-        "title": "title6",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Polska Akcja Humanitarna'",
+        "subtitle": "Cel i misja: Pomagamy cierpiącym w wyniku konfliktów zbrojnych i katastrof naturalnych",
         "items": "items"
       },
       {
-        "title": "title7",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Amnesty International Polska'",
+        "subtitle": "Cel i misja: Niesprawiedliwość na świecie traktujemy osobiście",
         "items": "items"
       }, {
-        "title": "title4",
-        "subtitle": "subtitle",
+        "title": "Fundacja 'Fundacja Rak’n’roll'",
+        "subtitle": "Rollujemy raka! Zmieniamy schemat myślenia o chorobie nowotworowej",
         "items": "items"
       }
     ]
@@ -46,22 +46,26 @@
     "desc": "jakis desc 2",
     "items": [
       {
-        "title": "title2",
-        "subtitle": "subtitle",
+        "title": "Organizacja 'Św. Mikołaja'",
+        "subtitle": "Od 1998 roku pomagamy dzieciom w potrzebie",
         "items": "items"
       },
       {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Organizacja 'Dzieci Afryki'",
+        "subtitle": "Najbiedniejsze dzieci mają zapewnioną podstawową opiekę",
         "items": "items"
       },
       {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Organizacja 'Fundacja Domy Wspólnoty Chleb Życia",
+        "subtitle": "Zajmuje się poprawą sytuacji osób zagrożonych wykluczeniem społecznym",
         "items": "items"
       }, {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Organizacja 'Polska Akcja Humanitarna'",
+        "subtitle": "Udzielamy pomocy humanitarnej: jesteśmy tam, gdzie wsparcie jest najbardziej potrzebne",
+        "items": "items"
+      }, {
+        "title": "Organizacja 'Kawałek nieba'",
+        "subtitle": "Finansujemy leczenie m.in. nierefundowane np. chemioterapie nowotworów, operacje, lekarstwa",
         "items": "items"
       }
     ]
@@ -70,22 +74,22 @@
     "desc": "jakis desc 2",
     "items": [
       {
-        "title": "title2",
-        "subtitle": "subtitle",
+        "title": "Collection 'Lorem Ipsum 1'",
+        "subtitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
         "items": "items"
       },
       {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Collection 'Lorem Ipsum 2'",
+        "subtitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
         "items": "items"
       },
       {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Collection 'Lorem Ipsum 3'",
+        "subtitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
         "items": "items"
       }, {
-        "title": "title",
-        "subtitle": "subtitle",
+        "title": "Collection 'Lorem Ipsum 4'",
+        "subtitle": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
         "items": "items"
       }
     ]

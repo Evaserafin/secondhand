@@ -3,8 +3,8 @@ import axios from "axios";
 
 const Section7 = () => {
     const [posts, setPosts] = useState([]);
-    const [current, setCurrent] = useState("fundations")
-    const [desc, setDesc] = useState("fundations")
+    const [current, setCurrent] = useState("foundations")
+    const [desc, setDesc] = useState("foundations")
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(0);
     useEffect(() => {
